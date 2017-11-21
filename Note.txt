@@ -1,0 +1,118 @@
+$ rtc get 1
+1000 rtc 17/11/13 16:18:22 41
+
+>$ rtc get 1
+1000 rtc 17/11/13 16:18:23 96
+
+>$ rtc get 1
+1000 rtc 17/11/13 16:18:24 56
+
+>[16:18:40 fUc20Run MODULE_ON_WAIT timeout
+]
+sms recv start
+[16:18:40 moduleOff]
+[16:18:40 Off pressed ]
+[16:18:41 Off released ]
+[16:18:51 VBAT Off ]
+[16:19:21 moduleOffReady]
+[16:19:21 moduleOn]
+
+[16:19:21 on POWER SUPPLY]
+[16:19:26 press PWRKEY button]
+wait START 120 seconds
+rxStr START
+undecode rxStr START
+rxStr +CME ERROR: SIM failure
+undecode rxStr +CME ERROR
+timeout
+[wqalarm 16:19:50]
+[record 16:20:00]
+$ wqalarm status
+1000 wqalarm EC 0.00 Normal Off
+1000 wqalarm DO 0.00 Normal Off
+1000 wqalarm pH 0.00 Normal Off
+1000 wqalarm T_ 108.09 Normal Off
+1000 wqalarm run read=0 sampling=0 main=0 sms=0
+status report ready
+
+>$ wqalarm status
+1000 wqalarm EC 0.00 Normal Off
+1000 wqalarm DO 0.00 Normal Off
+1000 wqalarm pH 0.00 Normal Off
+1000 wqalarm T_ 108.09 Normal Off
+1000 wqalarm run read=0 sampling=0 main=0 sms=0
+status report ready
+
+>$ ec25 get 0
+1000 ec25 -0.000,-0.001,108.1
+
+>$ ec25 get 0
+
+1000 ec25 -0.000,-0.001,108.1
+
+>$ ec25 get 0
+1000 ec25 -0.000,-0.001,108.1
+
+>$ ec25 get 0
+1000 ec25 -0.000,-0.001,108.1
+
+>$ ec25 get 0
+1000 ec25 -0.000,-0.001,108.1
+
+>$ ec25 get 0
+1000 ec25 -0.000,-0.001,108.1
+
+>$ wqalarm get 
+1000 wqalarm eReportErrorMessageDecodeError
+
+>$ wqalarm get 
+1000 wqalarm eReportErrorMessageDecodeError
+
+>$ wqalarm pause 0
+1000 wqalarm pause set ok
+
+>$ wqalarm pause 0
+1000 wqalarm pause set ok
+
+>$ wqalarm pause 0
+1000 wqalarm pause set ok
+
+
+>$ wqalarm pause 0
+1000 wqalarm pause set ok
+
+>$ wqalarm status
+1000 wqalarm EC 0.00 Normal Off
+1000 wqalarm DO 0.00 Normal Off
+
+1000 wqalarm pH 0.00 Normal Off
+1000 wqalarm T_ 108.09 Normal Off
+1000 wqalarm run read=0 sampling=0 main=0 sms=0
+status report ready
+
+>[16:21:52 Off released ]
+[16:22:02 VBAT Off ]
+
+[16:22:32 moduleOffReady]
+[16:22:32 moduleOn]
+[16:22:32 on POWER SUPPLY]
+[16:22:37 press PWRKEY button]
+wait START 120 seconds
+rxStr START
+undecode rxStr START
+rxStr +CME ERROR: SIM failure
+undecreceive error, Pause
+ode rxStr +CME ERROR
+receive error, Pause
+timeout
+[wqalarm 16:24:50]
+[record 16:25:00]
+[16:25:02 fUc20Run MODULE_ON_WAIT timeout
+]
+sms recv start
+[16:25:02 moduleOff]
+
+[16:25:02 Off pressed ]
+[16:25:03 Off released ]
+
+[16:25:13 VBAT Off ]

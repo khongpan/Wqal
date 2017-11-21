@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="th.or.nectec.wqal.MainActivity">
+    <item
+        android:id="@+id/actionDisconnectBt"
+        android:orderInCategory="103"
+        android:title="Disconnect BT" />
+    <item
+        android:id="@+id/actionConnectBt"
+        android:title="Connect BT" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="104"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>

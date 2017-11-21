@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Wqal</string>
+    <string name="tab_text_1">Monitor</string>
+    <string name="tab_text_2">Calibrate</string>
+    <string name="tab_text_3">Debug</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="btn_do_calc">DO</string>
+    <string name="btn_ec_calc">EC</string>
+    <string name="btn_ph_calc">pH</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="ph_ref_array">
+        <item>pH4</item>
+        <item>pH7</item>
+        <item>pH10</item>
+    </string-array>
+
+    <string-array name="do_ref_array">
+        <item>DOair</item>
+        <item>DOknow</item>
+        <item>DOzero</item>
+    </string-array>
+
+    <string-array name="ec_ref_array">
+        <item>1413</item>
+        <item>12.88</item>
+    </string-array>
+
+
+
+</resources>
+
